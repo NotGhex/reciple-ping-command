@@ -1,0 +1,9 @@
+name: ping-command
+version: 1.0.0
+description: Just a ping command
+license: MIT
+author: GhexterCortes
+files:
+  - ping.js
+supportedRecipleVersions:
+  - ^5.0.0

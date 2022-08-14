@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@falloutstudios/rmm": "^3.0.2",
+    "reciple": "^5.1.1"
+  }
+}
