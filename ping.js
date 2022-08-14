@@ -1,6 +1,6 @@
 const reciple = require('reciple');
 
-module.export.Ping = class Ping {
+module.exports.Ping = class {
     constructor() {
         this.versions = '^5.0.0';
         this.commands = [];
@@ -21,3 +21,5 @@ module.export.Ping = class Ping {
         return true;
     }
 }
+
+module.exports.default = new module.exports.Ping();
